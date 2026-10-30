@@ -39,5 +39,13 @@
     "梗百科",
     "meme-wiki"
   ],
-  "author": "Yuuyuko-uu"
+  "author": "thawline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thawline/dsh-memewiki.git"
+  },
+  "homepage": "https://github.com/thawline/dsh-memewiki#readme",
+  "bugs": {
+    "url": "https://github.com/thawline/dsh-memewiki/issues"
+  }
 }
