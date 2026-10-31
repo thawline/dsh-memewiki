@@ -1,6 +1,10 @@
 # dsh-memewiki
 
-给 [DSH](https://dsh.deepseek.com) 用的**梗百科 / 黑话词典**插件。移植自 AstrBot 插件 [`astrbot_plugin_memewiki`](https://github.com/in1t1a1/astrbot_plugin_memewiki)。
+给 [DSH](https://dsh.deepseek.com) 用的**梗百科 / 黑话词典**插件。
+
+> ⚠️ **这是 DSH 插件，不是 AstrBot 插件。** 仓库里出现 `astrbot_plugin_memewiki` 字样，只是因为它是从那个 AstrBot 插件移植来的；装进 AstrBot 里不会生效。
+
+来源：[in1t1a1/astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki)（AstrBot 版）。
 
 内置 6668 条网络梗词条，离线可用，不联网、零依赖（只用 Node 自带的 `node:sqlite`）。
 
@@ -32,15 +36,20 @@
 
 ## 安装
 
-在 DSH 的 `profiles/desktop` 目录下：
+**这是 DSH 插件，不是 AstrBot 插件**，请装进 DeepSeek Harness。
+
+在 profile 目录（通常是 `C:\Users\<你>\.dsh\profiles\desktop`）下执行：
 
 ```bash
-pnpm add dsh-memewiki
+pnpm add github:thawline/dsh-memewiki
 ```
 
-（或把本仓库 `link:` 进 profile，参考 DSH 插件开发文档。）
+或者把仓库 clone 到本地，再用 `link:` 引用。
 
-放入 `package.json` 的 `dsh.profile.bundles`，重启 DSH。
+装好后，把 `"dsh-memewiki"` 加进同一个 `package.json` 的 `dsh.profile.bundles` 数组，重启 DSH。
+
+> 还没发布到 npm，所以 `pnpm add dsh-memewiki` 会 404 —— 用上面的 GitHub 方式。
+> 也不要把它交给 AstrBot 的插件安装流程：那是另一套 Python 插件体系，装进去不会生效。
 
 ## 配置
 
