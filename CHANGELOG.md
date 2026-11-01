@@ -20,7 +20,7 @@
 
 ## 0.1.0 — 2026-10-30
 
-首个版本。从 [in1t1a1/astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki)（AstrBot 插件）移植到 DSH。
+首个版本。从 `astrbot_plugin_memewiki`（AstrBot 插件；原仓库已删除）移植到 DSH。
 
 ### 来源
 

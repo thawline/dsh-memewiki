@@ -4,14 +4,14 @@
 
 > ⚠️ **这是 DSH 插件，不是 AstrBot 插件。** 仓库里出现 `astrbot_plugin_memewiki` 字样，只是因为它是从那个 AstrBot 插件移植来的；装进 AstrBot 里不会生效。
 
-来源：[in1t1a1/astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki)（AstrBot 版）。
+来源：AstrBot 插件 `astrbot_plugin_memewiki`（作者 in1t1a1）。原仓库已删除，所以这里不放链接——如果有人点进来发现 404，那是那个仓库，不是这个。
 
 内置 6668 条网络梗词条，离线可用，不联网、零依赖（只用 Node 自带的 `node:sqlite`）。
 
 当你问一句「XX 是什么梗」时，它会在模型看到这句话**之前**就把对应词条查好塞进上下文，让模型直接接梗；同时提供一个 `search_meme_wiki` 工具，让模型自己想查的时候也能查。
 
 > 作者：[@thawline](https://github.com/thawline)
-> 来源：[in1t1a1/astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki)（AstrBot 版）
+> 来源：AstrBot 插件 `astrbot_plugin_memewiki`（AstrBot 版，原仓库已删除）
 
 
 ## 特性
